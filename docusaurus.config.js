@@ -98,7 +98,7 @@ const config = {
           },
           {to: '/blog', label: 'ブログ', position: 'left'},
           {
-            href: 'https://github.com/hackbridge-jp/hackbridge-jp',
+            href: 'https://github.com/hackbridge-jp/',
             label: 'GitHub',
             position: 'right',
           },
