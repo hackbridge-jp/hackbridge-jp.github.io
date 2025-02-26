@@ -23,8 +23,8 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hackbridge-jp', // Usually your GitHub org/user name.
-  projectName: 'hackbridge-jp.github.io', // Usually your repo name.
-  deploymentBranch: 'main',
+  projectName: 'hackbridge-jp', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -35,7 +35,13 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ja',
-    locales: ['ja', 'en'],
+    locales: ['ja'],
+    localeConfigs: {
+      ja: {
+        label: '日本語', // Display name for the language switcher
+        direction: 'ltr', // Japanese is left-to-right
+      },
+    },
   },
 
   presets: [
