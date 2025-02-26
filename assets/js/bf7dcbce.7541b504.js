@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhackbridge_jp=self.webpackChunkhackbridge_jp||[]).push([[2405],{5440:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/hackbridge-jp/index.html/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
