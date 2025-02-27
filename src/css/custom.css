@@ -4,30 +4,51 @@
  * work well for content-centric websites.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Maru+Gothic&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Mochiy+Pop+One&family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Maru+Gothic&display=swap');
  /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #0c5f92;
-  --ifm-color-primary-dark: #0b5583;
-  --ifm-color-primary-darker: #0a517c;
-  --ifm-color-primary-darkest: #084266;
-  --ifm-color-primary-light: #0d68a1;
-  --ifm-color-primary-lighter: #0e6da8;
-  --ifm-color-primary-lightest: #107bbe;
+  --ifm-color-primary: #9324dd;
+  --ifm-color-primary-dark: #d88818;
+  --ifm-color-primary-darker: #cc8116;
+  --ifm-color-primary-darkest: #a86a12;
+  --ifm-color-primary-light: #eaa13b;
+  --ifm-color-primary-lighter: #eba747;
+  --ifm-color-primary-lightest: #efb86b;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-family-base: 'Noto Sans JP', sans-serif;  /* 'Noto Sans JP', 'Zen Maru Gothic', 'M PLUS Rounded 1c' */
-  --ifm-font-family-monospace: 'Courier New', monospace;
+  --ifm-font-family-base: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  --ifm-font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
+
+.jp-pop-text {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.jp-sans-w900 {
+  font-family: 'Noto San JP', sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+}
+
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #3b7dbf;
-  --ifm-color-primary-dark: #3570ac;
-  --ifm-color-primary-darker: #326aa2;
-  --ifm-color-primary-darkest: #295786;
-  --ifm-color-primary-light: #4b89c8;
-  --ifm-color-primary-lighter: #5590ca;
-  --ifm-color-primary-lightest: #72a3d3;
+  --ifm-color-primary: #e79623;
+  --ifm-color-primary-dark: #d88818;
+  --ifm-color-primary-darker: #cc8116;
+  --ifm-color-primary-darkest: #a86a12;
+  --ifm-color-primary-light: #eaa13b;
+  --ifm-color-primary-lighter: #eba747;
+  --ifm-color-primary-lightest: #efb86b;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.hero--primary {
+  background: linear-gradient(90deg, #833ab4 0%, #b81d1d 50%, #e79623 100%);
+  --ifm-hero-text-color: var(--ifm-font-color-base-inverse); /* Keep text readable */
+}
+
+.navbar__title {
+  font-family: 'Mochiy Pop One', sans-serif;
 }

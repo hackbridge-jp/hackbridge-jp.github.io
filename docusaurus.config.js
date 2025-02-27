@@ -87,16 +87,22 @@ const config = {
         title: 'Hack Bridge',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/bridge_frameless.svg',
+          src: 'img/bridge_purple.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'ガイド',
+            label: '大学ハッカソンとは？',
+            className: 'jp-sans-w900',
           },
-          {to: '/blog', label: 'ブログ', position: 'left'},
+          {
+            to: '/blog',
+            label: 'ブログ',
+            position: 'left',
+            className: 'jp-sans-w900',
+          },
           {
             href: 'https://github.com/hackbridge-jp/',
             label: 'GitHub',
