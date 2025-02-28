@@ -92,9 +92,22 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'discoverSidebar',
             position: 'left',
             label: '大学ハッカソンとは？',
+            className: 'jp-sans-w900',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'guideSidebar',
+            position: 'left',
+            label: 'ガイド',
+            className: 'jp-sans-w900',
+          },
+          {
+            to: '/calendar',
+            label: 'カレンダー',
+            position: 'left',
             className: 'jp-sans-w900',
           },
           {
