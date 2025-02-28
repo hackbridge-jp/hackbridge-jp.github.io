@@ -117,7 +117,7 @@ const config = {
             className: 'jp-sans-w900',
           },
           {
-            href: 'https://github.com/hackbridge-jp/',
+            href: 'https://github.com/hackbridge-jp/hackbridge-jp.github.io',
             label: 'GitHub',
             position: 'right',
           },
