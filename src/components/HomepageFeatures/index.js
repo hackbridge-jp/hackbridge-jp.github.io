@@ -4,32 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'アイデアと技術で勝負する！',
+    Svg: require('@site/static/img/undraw_project-team_dip6_9324dd.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <p>大学ハッカソンは<strong>36時間でチームと協力してゼロからプロジェクトを形に</strong>する、まるでスタートアップみたいな超実践的体験！</p>
+        <p>セミナーや楽しいイベントも盛りだくさんでネットワーキングの機会でもある。</p>
+        <p>アメリカなどの各大学で開催されていて、<b>海外からの参加も受けて入れてる</b>。</p>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '今からアクション！',
+    Svg: require('@site/static/img/undraw_knowledge_0ty5.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <p>参加したいハッカソンを見つけて応募しよう。</p>
+        <p>スキルを身につけて備えよう！過去のプロジェクトをチェックして、どんなスキルが求められているかを探るのも一手。</p>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '挑戦者を支援する',
+    Svg: require('@site/static/img/undraw_appreciate-it_aans.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <p>日本の有能な若者を、海外の大学ハッカソンに参加させることで、彼らに他では得られれない大きな学びと活躍のチャンスを与えることができます。</p>
+        <p>また彼らに大学ハッカソン文化を日本に持ち帰ってもらうことで、長期的には日本の各大学で大学ハッカソンを実現・定着させることも目指せます</p>
+        <p>支援方法を探りましょう。</p>
       </>
     ),
   },

@@ -19,8 +19,16 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg jp-pop-text"
-            to="/docs/intro">
+            to="docs/discover/what_is_hackathon">
             大学ハッカソンを知る 📖
+          </Link>
+          　
+          <Link
+            className="button button--primary button--lg jp-pop-text"
+            to="https://discord.gg/TP5D8M8D" style={{ display: 'flex', alignItems: 'center' }}>
+            コミュニティに参加<img src='/img/discord-icon-black.svg'
+    style={{ width: '24px', height: '24px', marginLeft: '8px',
+      filter: 'invert(100%)', }}/>
           </Link>
         </div>
       </div>
