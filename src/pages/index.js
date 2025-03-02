@@ -22,7 +22,6 @@ function HomepageHeader() {
             to="docs/discover/what_is_hackathon">
             大学ハッカソンを知る 📖
           </Link>
-          　
           <Link
             className="button button--primary button--lg jp-pop-text"
             to="https://discord.gg/TP5D8M8D" style={{ display: 'flex', alignItems: 'center' }}>
@@ -40,7 +39,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
