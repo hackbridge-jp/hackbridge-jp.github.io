@@ -13,6 +13,8 @@ const FeatureList = [
         <p>アメリカなどの各大学で開催されていて、<b>海外からの参加も受けて入れてる</b>。</p>
       </>
     ),
+    actiontext: '大学ハッカソンとは',
+    actionlink: '/docs/discover/what_is_hackathon',
   },
   {
     title: '今からアクション！',
@@ -23,6 +25,8 @@ const FeatureList = [
         <p>スキルを身につけて備えよう！過去のプロジェクトをチェックして、どんなスキルが求められているかを探るのも一手。</p>
       </>
     ),
+    actiontext: 'ガイド',
+    actionlink: '/docs/guide/search',
   },
   {
     title: '挑戦者を支援する',
@@ -34,10 +38,12 @@ const FeatureList = [
         <p>支援方法を探りましょう。</p>
       </>
     ),
+    actiontext: 'サポート',
+    actionlink: '/discover',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, actiontext, actionlink}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -45,7 +51,13 @@ function Feature({Svg, title, description}) {
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <div className="text--left text--small">
+          <p>{description}</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-circle-chevron-right" style={{ marginRight: '10px' }}></i>
+          <a href={actionlink} style={{ textDecoration: 'underline' }}>{actiontext}</a>
+        </div>
       </div>
     </div>
   );

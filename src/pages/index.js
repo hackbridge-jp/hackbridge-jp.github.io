@@ -7,6 +7,9 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+import React from 'react';
+import { Helmet } from 'react-helmet';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -17,6 +20,12 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle jp-pop-text">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+          <Helmet>
+            <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            />
+          </Helmet>
           <Link
             className="button button--secondary button--lg jp-pop-text"
             to="docs/discover/what_is_hackathon">
@@ -25,9 +34,7 @@ function HomepageHeader() {
           <Link
             className="button button--primary button--lg jp-pop-text"
             to="https://discord.gg/TP5D8M8D" style={{ display: 'flex', alignItems: 'center' }}>
-            コミュニティに参加<img src='/img/discord-icon-black.svg'
-    style={{ width: '24px', height: '24px', marginLeft: '8px',
-      filter: 'invert(100%)', }}/>
+            コミュニティに参加　<i className="fa-brands fa-discord"></i>
           </Link>
         </div>
       </div>
