@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Hack Bridge JP',
-  tagline: '海外の大学ハッカソンに参加しよう！',
+  tagline: '海外の学生ハッカソンに参加しよう！',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -94,7 +94,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'discoverSidebar',
             position: 'left',
-            label: '大学ハッカソンとは？',
+            label: '学生ハッカソンとは？',
             className: 'jp-sans-w900',
           },
           {

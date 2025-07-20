@@ -29,7 +29,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg jp-pop-text"
             to="docs/discover/what_is_hackathon">
-            大学ハッカソンを知る 📖
+            学生ハッカソンを知る 📖
           </Link>
           <Link
             className="button button--primary button--lg jp-pop-text"

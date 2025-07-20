@@ -1,4 +1,4 @@
 ---
-title: 大学ハッカソンとは？
+title: 学生ハッカソンとは？
 sidebar_position: 1
 ---
