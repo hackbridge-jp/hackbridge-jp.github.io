@@ -13,7 +13,7 @@ The site is automatically deployed from the `main` branch to GitHub Pages.
 ### Prerequisites
 
 - Node.js 18.0 or higher
-- npm or yarn package manager
+- npm package manager (recommended)
 
 ### Local Development Setup
 
@@ -26,15 +26,11 @@ The site is automatically deployed from the `main` branch to GitHub Pages.
 2. **Install dependencies**
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. **Start the development server**
    ```bash
    npm start
-   # or
-   yarn start
    ```
 
 4. **Open your browser**
@@ -60,6 +56,8 @@ hackbridge-jp.github.io/
 ```
 
 ## 🛠️ Available Scripts
+
+> **Note:** This project uses npm as the package manager. Please use npm commands instead of yarn.
 
 - `npm start` - Start development server
 - `npm run build` - Build for production
